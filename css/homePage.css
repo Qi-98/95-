@@ -1,0 +1,216 @@
+/* ------------------初始样式------------------ */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-align: none;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+/* ------------------统一样式------------------ */
+body {
+    position: relative;
+    background-color: rgb(255, 253, 249);
+}
+
+.dis_none {
+    display: none;
+}
+
+.modal-open {
+    padding: 0;
+}
+
+/* ------------------头部------------------ */
+
+.header .col {
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    color: rgb(102, 204, 255);
+    text-shadow: 2px 2px 1px #000
+}
+
+/* 头像 */
+.header .portrait {
+    margin-top: 240px;
+    width: 200px;
+    height: 200px;
+    background-color: #ccc;
+    border-radius: 200px;
+}
+
+.header .portrait img {
+    border-radius: 200px;
+}
+
+/* 姓名和学校 */
+.header .name {
+    padding-top: 25px;
+    font-size: 40px;
+}
+
+.header .school {
+    font-size: 30px;
+}
+
+/* ------------------自我介绍内容页------------------ */
+.content {
+    margin-top: 100px;
+}
+
+.content .row {
+    padding: 8px;
+    height: 330px;
+}
+
+/* 盒子内的统一样式 */
+.content .box {
+    height: 100%;
+}
+
+/*左右两侧盒子样式*/
+.content .r1-left-box,
+.content .r2-right-box,
+.content .r3-left-box {
+    padding: 45px 40px 0;
+    background-color: rgb(51, 102, 244);
+    color: #fff;
+}
+
+.content .r1-left-box .box-title,
+.content .r2-right-box .box-title,
+.content .r3-left-box .box-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.content .r1-right-box,
+.content .r2-left-box,
+.content .r3-right-box {
+    padding: 45px 40px 0;
+    background-color: #fff;
+    color: rgb(51, 102, 244);
+}
+
+.content .r1-right-box .box-title,
+.content .r2-left-box .box-title,
+.content .r3-right-box .box-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+/*第一行左侧盒子*/
+.content .box .box-con ul {
+    padding: 10px 0 0 60px;
+}
+
+.content .box .box-con li {
+    padding-top: 8px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.content .box .box-con li img {
+    margin-right: 10px;
+    vertical-align: -3px;
+}
+
+/*第一行右侧盒子  -- 无*/
+
+/*第二行右侧盒子*/
+.content .r2-right-box .box-con li {
+    padding-top: 10px;
+}
+
+.content .r2-right-box .time {
+    font-size: 18px;
+}
+
+.content .r2-right-box .schoolName {
+    font-weight: bold;
+}
+
+/*第三行右侧盒子*/
+.content .r3-right-box .box-con {
+    padding: 0;
+}
+
+.content .r3-right-box .box-con ul {
+    padding: 20px 0 0 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.content .r3-right-box .box-btn,
+.content .r3-right-box .box-btn img {
+    width: 150px;
+    height: 150px;
+    background: #ccc;
+    border: none;
+}
+
+/* 我的照片二级层样式 */
+
+.box-pic {
+    display: none;
+}
+
+.box-pic img {
+    width: 1000px;
+    z-index: 99;
+}
+
+/* ------------------页脚------------------ */
+
+.footer {
+    margin: 100px 0;
+}
+
+.footer .col {
+    display: flex;
+    justify-content: center;
+}
+
+.footer .col span {
+    margin: 0 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.footer .col span img {
+    border-radius: 40px;
+}
+
+.footer .col .fo-one {
+    background: url('../images/footer_wx.png') no-repeat -1px 0px;
+
+}
+
+.footer .col .fo-one:hover {
+    background: url('../images/_footer_wx.png') no-repeat -1px 0px;
+}
+
+.footer .col .fo-two {
+    background: url('../images/footer_youjian.png') no-repeat -1px 0px;
+
+}
+
+.footer .col .fo-two:hover {
+    background: url('../images/_footer_youjian.png') no-repeat -1px 0px;
+}
+
+.footer .col .fo-three {
+    background: url('../images/footer_qq.png') no-repeat -1px 0px;
+
+}
+
+.footer .col .fo-three:hover {
+    background: url('../images/_footer_qq.png') no-repeat -1px 0px;
+}
